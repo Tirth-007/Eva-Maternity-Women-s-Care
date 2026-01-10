@@ -1,65 +1,159 @@
-import Image from "next/image";
+export const dynamic = "force-static";
+import DoctorCabinSection from "@/components/DoctorCabinSection";
+import ReceptionSection from "@/components/ReceptionSection";
+import WaitingRoomSection from "@/components/WaitingRoomSection";
+import PatientRoomSection from "@/components/PatientRoomSection";
+import FinalCTASection from "@/components/FinalCTASection";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.js file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
+    <section>
+      {/* HERO SECTION */}
+      <section className="bg-white">
+        <div className="max-w-5xl mx-auto px-6 py-20 text-center">
+          {/* Background Art */}
+          <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+            <img
+              src="/evaartwork.png"
+              alt=""
+              className="w-65
+              sm:w-[320px]
+              md:w-105
+              lg:w-120
+              opacity-[0.08]"
+              />
+          </div>
+          <div className="relative max-w-6xl mx-auto px-6 py-28">
+              <h1 className="text-4xl md:text-5xl font-semibold text-gray-900 leading-tight">
+            Caring for Women’s Health,
+                <br className="hidden sm:block" />
+            With Understanding and Respect
+              </h1>
+
+
+              <p className="mt-6 text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto">
+            Gynecology, pregnancy and infertility care — explained clearly,
+            treated gently, and guided with patience.
+              </p>
+
+              <p className="mt-4 text-gray-700">
+            You can speak freely. Every concern is listened to without judgement.
+              </p>
+          </div>
+
+          {/* CTA */}
+          <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
+              href="/appointment"
+              className="bg-red-600 text-white px-8 py-3 rounded-md text-sm font-medium hover:bg-red-700 transition"
+              >
+              Request Appointment
+            </a>
+
             <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+              href="https://wa.me/91XXXXXXXXXX"
+              className="border border-gray-300 px-8 py-3 rounded-md text-sm text-gray-700 hover:bg-gray-50 transition"
+              >
+              Talk on WhatsApp
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* REASSURANCE SECTION */}
+      <section className="bg-gray-50">
+        <div className="max-w-4xl mx-auto px-6 py-16 text-center">
+          <p className="text-gray-700 text-lg leading-relaxed">
+            Many women hesitate to talk about their health problems.
+            <br />
+            At Eva Maternity Care, you are heard with patience,
+            respect, and clarity.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
+      </section>
+
+      {/* Doctor Cabin Section */}
+      <DoctorCabinSection />
+
+      {/* Reception / Lobby Section */}
+      <ReceptionSection />
+
+      {/* Waiting Room Section */}
+      <WaitingRoomSection />
+
+      {/* Patient Room Section */}
+      <PatientRoomSection />
+
+      {/* Final CTA / Patient Room Section */}
+      <FinalCTASection />
+
+
+      {/* DOCTOR TRUST SECTION */}
+      <div className="bg-white border-t">
+        <div className="max-w-5xl mx-auto px-4 py-16 text-center">
+          <h2 className="text-2xl font-semibold text-gray-900">
+            Care Led by Understanding
+          </h2>
+
+          <p className="mt-4 text-gray-700">
+            Good treatment begins with listening.
+            <br />
+            Every patient is given time, explanation, and honest guidance —
+            including family discussions when needed.
+          </p>
+
           <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
+            href="/about"
+            className="inline-block mt-6 text-red-600 hover:underline"
+            >
+            Learn more about the doctor →
           </a>
         </div>
-      </main>
-    </div>
+      </div>
+    </section>
   );
 }
+
+
+
+
+{/* <h1 className="text-3xl md:text-4xl font-semibold text-gray-900">
+  Caring for Women’s Health, With Understanding and Respect
+  </h1> */}
+  {/* SERVICES PREVIEW */}
+  {/* <div className="max-w-7xl mx-auto px-4 py-16">
+    <h2 className="text-2xl font-semibold text-center text-gray-900">
+    Our Care Services
+    </h2>
+    
+    <div className="mt-10 grid gap-6 sm:grid-cols-2 md:grid-cols-3">
+    {[
+      "Women’s Health & Gynecology",
+      "Pregnancy & Maternity Care",
+      "Infertility Guidance",
+      "Laparoscopic Procedures",
+      "Routine Checkups & Prevention",
+    ].map((service) => (
+      <div
+      key={service}
+      className="border rounded-lg p-6 text-center"
+      >
+      <p className="text-gray-800">{service}</p>
+      </div>
+    ))}
+    </div>
+    </div> */}
+    {/* <p className="mt-4 text-gray-700">
+      Good treatment begins with listening.
+      <br />
+      Every patient is given time, explanation, and honest guidance —
+      including family discussions when needed.
+      </p> */}
+      {/* <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
+        Gynecology, pregnancy and infertility care — explained clearly,
+        treated gently, and guided with patience.
+      </p>
+      
+      <p className="mt-3 text-gray-700">
+        You can speak freely. Every concern is listened to without judgement.
+      </p> */}
