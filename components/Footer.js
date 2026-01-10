@@ -46,7 +46,7 @@ export default function Footer() {
         <div className="mt-10 text-center text-xs text-gray-500">
           © 2026 Eva Maternity Care. All rights reserved.
         </div>
-        <p className="mt-10 text-center text-xs text-gray-500">
+        <p className="text-center text-xs text-gray-500">
           Designed and Developed by Tirth Barot.
         </p>
 
