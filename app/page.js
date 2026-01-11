@@ -25,19 +25,19 @@ export default function HomePage() {
           </div>
           <div className="relative max-w-6xl mx-auto px-6 py-28">
               <h1 className="text-4xl md:text-5xl font-semibold text-gray-900 leading-tight">
-            Caring for Women’s Health,
+            Women’s Health Care,
                 <br className="hidden sm:block" />
-            With Understanding and Respect
+            Delivered with Thoughtfulness
               </h1>
 
 
               <p className="mt-6 text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto">
-            Gynecology, pregnancy and infertility care — explained clearly,
-            treated gently, and guided with patience.
+            Gynecology, pregnancy and fertility consultations
+            focused on clarity, privacy, and calm guidance.
               </p>
 
               <p className="mt-4 text-gray-700">
-            You can speak freely. Every concern is listened to without judgement.
+            A place where women can speak openly and feel supported.
               </p>
           </div>
 
@@ -64,10 +64,12 @@ export default function HomePage() {
       <section className="bg-gray-50">
         <div className="max-w-4xl mx-auto px-6 py-16 text-center">
           <p className="text-gray-700 text-lg leading-relaxed">
-            Many women hesitate to talk about their health problems.
-            <br />
-            At Eva Maternity Care, you are heard with patience,
-            respect, and clarity.
+            Many women find it difficult to discuss health concerns openly,
+            especially when conversations feel rushed or uncomfortable.
+          </p>
+          <p className="mt-2 text-gray-700 text-lg leading-relaxed">
+           This is why consultation spaces at Eva Maternity Care are designed
+           to encourage clear discussion and thoughtful decision-making.
           </p>
         </div>
       </section>
@@ -92,14 +94,13 @@ export default function HomePage() {
       <div className="bg-white border-t">
         <div className="max-w-5xl mx-auto px-4 py-16 text-center">
           <h2 className="text-2xl font-semibold text-gray-900">
-            Care Led by Understanding
+            Clear Conversations. Informed Decisions.
           </h2>
 
           <p className="mt-4 text-gray-700">
-            Good treatment begins with listening.
+            Medical discussions are handled clearly and at a comfortable pace,
             <br />
-            Every patient is given time, explanation, and honest guidance —
-            including family discussions when needed.
+            so patients and families understand each step before moving forward.
           </p>
 
           <a
@@ -117,43 +118,3 @@ export default function HomePage() {
 
 
 
-{/* <h1 className="text-3xl md:text-4xl font-semibold text-gray-900">
-  Caring for Women’s Health, With Understanding and Respect
-  </h1> */}
-  {/* SERVICES PREVIEW */}
-  {/* <div className="max-w-7xl mx-auto px-4 py-16">
-    <h2 className="text-2xl font-semibold text-center text-gray-900">
-    Our Care Services
-    </h2>
-    
-    <div className="mt-10 grid gap-6 sm:grid-cols-2 md:grid-cols-3">
-    {[
-      "Women’s Health & Gynecology",
-      "Pregnancy & Maternity Care",
-      "Infertility Guidance",
-      "Laparoscopic Procedures",
-      "Routine Checkups & Prevention",
-    ].map((service) => (
-      <div
-      key={service}
-      className="border rounded-lg p-6 text-center"
-      >
-      <p className="text-gray-800">{service}</p>
-      </div>
-    ))}
-    </div>
-    </div> */}
-    {/* <p className="mt-4 text-gray-700">
-      Good treatment begins with listening.
-      <br />
-      Every patient is given time, explanation, and honest guidance —
-      including family discussions when needed.
-      </p> */}
-      {/* <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-        Gynecology, pregnancy and infertility care — explained clearly,
-        treated gently, and guided with patience.
-      </p>
-      
-      <p className="mt-3 text-gray-700">
-        You can speak freely. Every concern is listened to without judgement.
-      </p> */}

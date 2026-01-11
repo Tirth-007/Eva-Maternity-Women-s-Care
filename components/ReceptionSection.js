@@ -9,18 +9,18 @@ export default function ReceptionSection() {
           {/* Text */}
           <div className="max-w-3xl">
             <h2 className="text-3xl md:text-4xl font-semibold text-gray-900">
-              A Calm and Respectful Environment
+              A Well-Organized and Welcoming Setting
             </h2>
 
             <p className="mt-6 text-lg text-gray-700 leading-relaxed">
-              From the moment you enter Eva Maternity Care, you are welcomed into
-              a clean, organized, and peaceful environment designed to make
-              women and families feel comfortable and at ease.
+              From arrival to consultation, the clinic is managed in a
+              structured and orderly manner to reduce waiting-time stress
+              for patients and families.
             </p>
 
             <p className="mt-4 text-gray-600 leading-relaxed">
-              Our reception and waiting areas are managed with care so that your
-              experience begins calmly, without confusion or unnecessary stress.
+              Cleanliness and organization are maintained throughout the
+              facility.
             </p>
           </div>
 

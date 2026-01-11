@@ -20,18 +20,18 @@ export default function WaitingRoomSection() {
           {/* Text */}
           <div>
             <h2 className="text-3xl md:text-4xl font-semibold text-gray-900">
-              Comfortable Waiting, Without Stress
+              Designed for Ease While You Wait
             </h2>
 
             <p className="mt-6 text-lg text-gray-700 leading-relaxed">
-              We understand that waiting can feel uncomfortable, especially
-              during pregnancy or when you are feeling unwell.
+              The waiting area offers a calm seating arrangement so
+              patients can remain comfortable while appointments are
+              being prepared.
             </p>
 
             <p className="mt-4 text-gray-600 leading-relaxed">
-              Our waiting area is designed to be clean, quiet, and comfortable,
-              allowing you and your family to sit peacefully until your
-              consultation begins.
+              Special attention is given to maintaining a quiet and
+              well-managed environment.
             </p>
           </div>
 

@@ -10,19 +10,17 @@ export default function PatientRoomSection() {
           {/* Text */}
           <div>
             <h2 className="text-3xl md:text-4xl font-semibold text-gray-900">
-              Care That Respects Your Dignity
+              Focused on Recovery and Privacy
             </h2>
 
             <p className="mt-6 text-lg text-gray-700 leading-relaxed">
-              When admission is required, patients are provided with clean,
-              well-maintained rooms designed to ensure comfort, privacy,
-              and proper rest during treatment and recovery.
+              Patient rooms are arranged to support rest, hygiene, and
+              privacy during treatment or recovery.
             </p>
 
             <p className="mt-4 text-gray-600 leading-relaxed">
-              Our team takes special care to maintain hygiene and a calm
-              environment, so both patients and families can feel reassured
-              throughout the stay.
+              Facilities are maintained to ensure families feel assured
+              throughout the admission process.
             </p>
           </div>
           

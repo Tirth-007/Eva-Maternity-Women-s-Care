@@ -21,19 +21,20 @@ export default function DoctorCabinSection() {
           {/* Text Content */}
           <div>
             <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 leading-tight">
-              Consult with a Female Doctor{" "}<span className="hidden sm:inline" ><br/></span>
-               You Can Trust
+              {/* Consult with a Female Doctor{" "}<span className="hidden sm:inline" ><br/></span>
+               You Can Trust */}
+               A Private Space for Meaningful Consultation
             </h2>
 
             <p className="mt-6 text-gray-700 text-lg leading-relaxed">
-              Every consultation takes place in a calm and private environment,
-              where your concerns are listened to patiently and explained
-              clearly — without judgement or pressure.
+              Consultations take place in a quiet, private setting where
+              patients are given time to discuss their concerns without
+              pressure or interruption.
             </p>
 
             <p className="mt-4 text-gray-600 leading-relaxed">
-              This space is designed so that women feel comfortable speaking
-              openly about their health, at their own pace.
+              This environment allows clear discussion and informed
+              decision-making at every stage.
             </p>
 
             {/* Optional Doctor Presence (small & gentle) */}
