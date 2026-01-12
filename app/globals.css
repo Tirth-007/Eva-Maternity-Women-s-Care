@@ -3,6 +3,11 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-serif: var(--font-playfair);
+}
+
+.font-serif {
+  font-family: var(--font-playfair), serif;
 }
 
 @theme inline {
