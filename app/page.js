@@ -8,6 +8,12 @@ import WaitingRoomSection from "@/components/WaitingRoomSection";
 import PatientRoomSection from "@/components/PatientRoomSection";
 import FinalCTASection from "@/components/FinalCTASection";
 
+export const metadata = {
+  title: "Eva Maternity Care | Gynecology & Pregnancy Care in Bharuch",
+  description:
+    "Eva Maternity Care provides gynecology, pregnancy, and women’s health consultations in Bharuch with a focus on clarity, privacy, and structured medical guidance.",
+};
+
 export default function HomePage() {
   return (
     <main className="flex flex-col w-full">

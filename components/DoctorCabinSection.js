@@ -10,7 +10,8 @@ export default function DoctorCabinSection() {
           <div>
             <Image
               src="/evadoctorcabin.jpg"   // 🔁 change to your actual path
-              alt="Doctor consultation cabin at Eva Maternity Care"
+              // alt="Doctor consultation cabin at Eva Maternity Care"
+              alt="Doctor consultation room at Eva Maternity Care"
               width={800}
               height={600}
               className="rounded-2xl object-cover"
