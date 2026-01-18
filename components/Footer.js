@@ -47,7 +47,7 @@ export default function Footer() {
           © 2026 Eva Maternity Care. All rights reserved.
         </div>
         <p className="text-center text-xs text-gray-500">
-          Curated with Precision by Tirth Barot.
+          Built with purpose by Tirth Barot.
         </p>
 
       </div>
