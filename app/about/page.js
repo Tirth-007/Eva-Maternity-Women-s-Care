@@ -22,9 +22,9 @@ export default function AboutDoctorPage() {
             {/* Decorative Offset Background */}
             <div className="absolute top-4 left-4 w-full h-full border-2 border-red-100 rounded-2xl -z-10 transition-transform duration-300 group-hover:top-3 group-hover:left-3"></div>
             
-            <div className="relative rounded-2xl overflow-hidden shadow-lg bg-gray-100 aspect-4/5">
+            <div className="relative rounded-2xl overflow-hidden shadow-lg bg-gray-100 aspect-2/3">
               <Image
-                src="/evadoctor.png" 
+                src="/drpicn.png" 
                 alt="Dr. Pragati Barot - Gynecologist at Eva Maternity Care"
                 fill
                 className="object-cover object-top hover:scale-105 transition-transform duration-700"

@@ -41,7 +41,7 @@ export default function DoctorCabinSection() {
             {/* Optional Doctor Presence (small & gentle) */}
             <div className="mt-8 flex items-center gap-4">
               <Image
-                src="/evadoctorclosepic.png" // 🔁 optional, remove block if not using
+                src="/drpicclose.png" // 🔁 optional, remove block if not using
                 alt="Gynecologist at Eva Maternity Care"
                 width={64}
                 height={64}
