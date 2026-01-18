@@ -24,7 +24,7 @@ export default function AboutDoctorPage() {
             
             <div className="relative rounded-2xl overflow-hidden shadow-lg bg-gray-100 aspect-2/3">
               <Image
-                src="/drpicn.png" 
+                src="/drpic.png" 
                 alt="Dr. Pragati Barot - Gynecologist at Eva Maternity Care"
                 fill
                 className="object-cover object-top hover:scale-105 transition-transform duration-700"
