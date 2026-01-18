@@ -22,11 +22,14 @@ export default function Footer() {
               Contact
             </h3>
             <p>Bharuch, Gujarat</p>
-            <p>+91 XXXXXXXXXX</p>
+            <p>+91 9023168189</p>
             <p className="mt-2">
-              Mon – Sat<br />
+              Mon – Fri<br />
               10:00 AM – 1:00 PM<br />
-              5:00 PM – 8:00 PM
+              4:00 PM – 8:30 PM<br/>
+              Saturday<br/>
+              10:00 AM – 3:00 PM<br/>
+              Sunday<br/> Closed
             </p>
           </div>
 

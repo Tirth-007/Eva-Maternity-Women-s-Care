@@ -73,7 +73,7 @@ export default function Header() {
           {/* Right Side: CTA + Mobile Toggle */}
           <div className="flex items-center gap-4">
             <a
-              href="https://wa.me/+919428175116"
+              href="https://wa.me/+919023168189"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:block bg-red-600 text-white text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-red-700 transition shadow-md"
@@ -131,7 +131,7 @@ export default function Header() {
               );
             })}
             <a
-              href="https://wa.me/+919428175116"
+              href="https://wa.me/+919023168189"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-red-600 text-white text-center py-3 rounded-md mt-2 font-medium hover:bg-red-700 transition"

@@ -50,7 +50,7 @@ export default function AboutDoctorPage() {
 
             <div className="prose prose-lg text-gray-600 leading-relaxed space-y-6">
               <p>
-                Dr. Pragati Barot leads <span className="text-gray-900 font-medium">Eva Maternity Care</span> with a focus on thoughtful evaluation and structured consultations. 
+                Dr. Pragati Barot leads <span className="text-gray-900 font-medium">Eva Maternity Home</span> with a focus on thoughtful evaluation and structured consultations. 
                 She believes that healthcare is not just about prescriptions, but about clear understanding.
               </p>
               <p>
@@ -175,7 +175,7 @@ export default function AboutDoctorPage() {
             </Link>
 
             <a
-              href="https://wa.me/91XXXXXXXXXX"
+              href="https://wa.me/919023168189"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-transparent border border-gray-600 text-white px-8 py-3.5 rounded-full text-sm font-medium hover:bg-gray-800 hover:border-gray-500 transition"

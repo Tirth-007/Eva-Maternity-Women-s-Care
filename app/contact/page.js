@@ -65,13 +65,13 @@ export default function ContactPage() {
             </p>
             <div className="flex flex-col gap-3 w-full">
               <a 
-                href="tel:+919428175116" 
+                href="tel:+919023168189" 
                 className="bg-gray-900 text-white px-6 py-2.5 rounded-lg text-sm font-medium hover:bg-gray-800 transition"
               >
-                +91 94281 75116
+                +91 90231 68189
               </a>
               <a 
-                href="https://wa.me/919428175116"
+                href="https://wa.me/919023168189"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="border border-gray-300 text-gray-700 px-6 py-2.5 rounded-lg text-sm font-medium hover:bg-gray-50 transition"
